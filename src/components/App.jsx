@@ -31,7 +31,7 @@ export const App = () => {
         setError(null);
         setTotalHits(newTotalHits);
       } catch (error) {
-        setError('😫Oops... Something went wrong, try again');
+        setError('😟 Oops... Something went wrong, please try again');
       } finally {
         setIsLoading(false);
       }
